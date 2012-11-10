@@ -11,7 +11,7 @@ using System.Web.Http.Filters;
 
 namespace Order.Web.App_Start
 {
-    public class ValidationActionFilter: ActionFilterAttribute
+    public class ValidationActionFilter : ActionFilterAttribute
     {
         public override void OnActionExecuting(System.Web.Http.Controllers.HttpActionContext context)
         {
